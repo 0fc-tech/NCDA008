@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "coursandroid"
 include ':app'
+include ':mod2ihm'
+include ':mod2ihm2'
+include ':mod2tp'
