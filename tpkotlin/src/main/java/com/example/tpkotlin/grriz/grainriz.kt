@@ -13,4 +13,5 @@ fun main() {
         println("Grain de riz à la case $index : $nbRiz")
     }
     println("Le nobmre total de grain de riz est $result")
+    (1..342).random()
 }
