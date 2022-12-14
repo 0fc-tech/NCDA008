@@ -7,6 +7,9 @@
         <variable
             name="qr"
             type="com.example.mod4tpvraifaux.QuestionReponse" />
+        <variable
+            name="score"
+            type="Integer" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -19,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
-            android:text="Hello World!"
+            android:text="@{String.valueOf(score)}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

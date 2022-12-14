@@ -20,6 +20,35 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
         binding.qr = listQR[index]
+        binding.score = score
 
+        binding.buttonTrue.setOnClickListener{
+            checkUserResponse(true)
+            if(index +1 > listQR.size -1){
+                binding.buttonTrue.isEnabled = false
+                binding.buttonFalse.isEnabled = false
+                return@setOnClickListener;
+            }
+            index++
+            binding.qr = listQR[index]
+
+        }
+        binding.buttonFalse.setOnClickListener{
+            checkUserResponse(false)
+            if(index +1 > listQR.size -1){
+                binding.buttonFalse.isEnabled = false
+                binding.buttonTrue.isEnabled = false
+                return@setOnClickListener;
+            }
+            index++
+            binding.qr = listQR[index]
+
+        }
+    }
+
+    fun checkUserResponse(userReponse : Boolean){
+        if(userReponse == listQR[index].reponse){
+            binding.score = ++score
+        }
     }
 }
