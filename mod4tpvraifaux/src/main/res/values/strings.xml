@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mod4tpvraifaux</string>
+    <string name="labelButtonVrai">Vrai</string>
+    <string name="labelButtonFaux">Faux</string>
+</resources>

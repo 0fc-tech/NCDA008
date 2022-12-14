@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="labelButtonVrai">True</string>
+    <string name="labelButtonFaux">False</string>
+    <string name="app_name">mod4tpTrueFalse</string>
+
+</resources>
