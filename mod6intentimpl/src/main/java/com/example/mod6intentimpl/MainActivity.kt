@@ -7,8 +7,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.app.ActivityOptionsCompat
 
 class MainActivity : AppCompatActivity() {
+    val phoneNumber = ""
     val requestPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
     ) { isGranted: Boolean ->
@@ -35,6 +37,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         buttonCall.setOnClickListener {
+            //intent.extras
             requestPermissionLauncher.launch(Manifest.permission.CALL_PHONE)
         }
 

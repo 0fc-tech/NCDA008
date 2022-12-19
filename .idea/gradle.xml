@@ -24,6 +24,9 @@
             <option value="$PROJECT_DIR$/mod5tphistoire" />
             <option value="$PROJECT_DIR$/mod6intentexpl" />
             <option value="$PROJECT_DIR$/mod6intentimpl" />
+            <option value="$PROJECT_DIR$/mod6tp1" />
+            <option value="$PROJECT_DIR$/mod7instancestate" />
+            <option value="$PROJECT_DIR$/mod7lifecycle" />
             <option value="$PROJECT_DIR$/tpkotlin" />
           </set>
         </option>
