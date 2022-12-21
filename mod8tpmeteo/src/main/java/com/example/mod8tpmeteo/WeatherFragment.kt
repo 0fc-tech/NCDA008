@@ -58,4 +58,10 @@ class WeatherFragment : Fragment() {
         }
     }
 
+
+    fun sdklmshg(): Unit {
+        val list = listOf("sdklj","sdf","sdklj","sdf","sdklj","sdf","sdklj","sdf")
+        var a =""
+        list.forEach { a+= it }
+    }
 }
