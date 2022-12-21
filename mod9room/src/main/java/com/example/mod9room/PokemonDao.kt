@@ -19,6 +19,9 @@ interface PokemonDao {
 
     @Delete
     fun delete(pokemon: Pokemon)
+
+    @Delete
+    fun deleteAll(lsPokemon: List<Pokemon>)
 }
 
 
